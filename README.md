@@ -27,26 +27,6 @@ Se trata de un prototipo académico. No es una tienda electrónica real ni está
 - .NET 10 para Windows
 - Microsoft Visual Studio y Blend
 
-## Estructura del proyecto
-PracticaPOLESTAR/
-├── Assets/
-│   └── Images/
-│       ├── polestar-logo.png
-│       ├── polestar-2.png
-│       ├── polestar-3.png
-│       ├── polestar-4.png
-│       ├── campana-experiencia.jpg
-│       ├── campana-energia.jpg
-│       └── campana-diseno.jpg
-├── App.xaml
-├── App.xaml.cs
-├── AssemblyInfo.cs
-├── MainWindow.xaml
-├── MainWindow.xaml.cs
-├── PracticaPOLESTAR.csproj
-└── README.md
-```
-
 ## Requisitos para ejecutar el proyecto
 
 - Windows.
