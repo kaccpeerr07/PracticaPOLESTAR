@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<!-- Todas las imágenes de Assets/Images se incorporan como recursos WPF -->
+	<ItemGroup>
+		<None Remove="Assets\Images\**\*" />
+		<Resource Include="Assets\Images\**\*" />
+	</ItemGroup>
+
+</Project>
